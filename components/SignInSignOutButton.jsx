@@ -1,10 +1,9 @@
-//"use client"
+"use client"
 
 import { useIsAuthenticated, useMsal } from "@azure/msal-react";
 import { SignInButton } from "./SignInButton";
 import { SignOutButton } from "./SignOutButton";
 import { InteractionStatus } from "@azure/msal-browser";
-import { useEffect } from "react";
 
 const SignInSignOutButton = () => {
     const { inProgress } = useMsal();
@@ -15,7 +14,7 @@ const SignInSignOutButton = () => {
     
     let result = null;
 
-    // useEffect(() => {
+    useEffect(() => {
         if (isAuthenticated) {
             result = <SignOutButton />;
         } else if (
@@ -28,7 +27,7 @@ const SignInSignOutButton = () => {
             console.log('returning SignInSignOutButton of null');
             result = null;
         }
-    // });
+    });
 
     return result;
 }
