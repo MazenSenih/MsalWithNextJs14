@@ -48,6 +48,8 @@ http://localhost:3000/
 - All the above are tested and functioning correctly as expected.
 - Added [msal/userHelper.ts](msal/userHelper.ts) to help with common user tasks. 
 
+![image](https://github.com/MazenSenih/MsalWithNextJs14/assets/24445348/b916fb15-ca9d-4084-b5a6-ef7b62eaf296)
+
 ### Final words
 I had the same struggle as you do do when I first started using MSAL for custom Azure hosted API, I hope this helps you starting your MSAL authentication faster, cleaner, and more straight forward.
 
