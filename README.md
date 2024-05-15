@@ -50,6 +50,8 @@ http://localhost:3000/
 
 ![image](https://github.com/MazenSenih/MsalWithNextJs14/assets/24445348/b916fb15-ca9d-4084-b5a6-ef7b62eaf296)
 
+![image](https://github.com/MazenSenih/MsalWithNextJs14/assets/24445348/aa1b91b3-4e32-4e0b-8e45-4634923a608e)
+
 ### Final words
 I had the same struggle as you do do when I first started using MSAL for custom Azure hosted API, I hope this helps you starting your MSAL authentication faster, cleaner, and more straight forward.
 
