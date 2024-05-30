@@ -3,6 +3,8 @@
 This project integrates [Next.js](https://nextjs.org/) v14.0.4 with React v18 and the latest version of MSAL (Microsoft Authentication Library). It's bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and includes configurations for @azure/msal-browser: v3.6.0 and msal-react: v2.0.8. 
 
 This boilerplate is designed to streamline the integration of Azure AD authentication in a server-rendered Next.js application, while ensuring the main layout remains succinct and organized.
+![image](https://github.com/MazenSenih/MsalWithNextJs14/assets/24445348/b916fb15-ca9d-4084-b5a6-ef7b62eaf296)
+![image](https://github.com/MazenSenih/MsalWithNextJs14/assets/24445348/aa1b91b3-4e32-4e0b-8e45-4634923a608e)
 
 ## Prerequisites
 Before you begin, ensure you have Node.js [version] installed.
@@ -47,10 +49,6 @@ http://localhost:3000/
 - Added a page to test getting the user token generated based on your MSAL configuration, this can be very handy when talking to your custom APIs.
 - All the above are tested and functioning correctly as expected.
 - Added [msal/userHelper.ts](msal/userHelper.ts) to help with common user tasks. 
-
-![image](https://github.com/MazenSenih/MsalWithNextJs14/assets/24445348/b916fb15-ca9d-4084-b5a6-ef7b62eaf296)
-
-![image](https://github.com/MazenSenih/MsalWithNextJs14/assets/24445348/aa1b91b3-4e32-4e0b-8e45-4634923a608e)
 
 ### Final words
 I had the same struggle as you do do when I first started using MSAL for custom Azure hosted API, I hope this helps you starting your MSAL authentication faster, cleaner, and more straight forward.
