@@ -7,7 +7,7 @@ This boilerplate is designed to streamline the integration of Azure AD authentic
 ![image](https://github.com/MazenSenih/MsalWithNextJs14/assets/24445348/b916fb15-ca9d-4084-b5a6-ef7b62eaf296) ![image](https://github.com/MazenSenih/MsalWithNextJs14/assets/24445348/aa1b91b3-4e32-4e0b-8e45-4634923a608e)
 
 ## Prerequisites
-Before you begin, ensure you have Node.js [version] installed.
+Before you begin, ensure you have Node.js installed, preferable version >=18.x.x
 
 ## Setting Up Your MSAL Backend and Configurations
 To use Azure AD authentication, you must first set up your backend in Microsoft Azure.
