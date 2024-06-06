@@ -53,6 +53,6 @@ http://localhost:3000/
 ### Final words
 I had the same struggle as you do do when I first started using MSAL for custom Azure hosted API, I hope this helps you starting your MSAL authentication faster, cleaner, and more straight forward.
 
-Happy coding! 🙂💻,
+Happy coding!💻
 
 [Mazen Alsenih](https://mazensenih.com)
